@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="14150c15a2ce4686ade486a685db148f" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.tblAccount" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountBackup" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountBalance" Width="1.5" PointX="17.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountBalanceAudit" Width="1.5" PointX="19.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountChange" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountDisclaimer" Width="1.5" PointX="16" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountImage" Width="1.5" PointX="17.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountNew" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAccountPreference" Width="1.5" PointX="5.25" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblAsset" Width="1.5" PointX="3" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblBalanceType" Width="1.5" PointX="12" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblBed" Width="1.5" PointX="0.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblBedType" Width="1.5" PointX="1.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblCabin" Width="1.5" PointX="5.25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblCallRequest" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblCashOut" Width="1.5" PointX="8.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblCashOutValue" Width="1.5" PointX="10.5" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblCode" Width="1.5" PointX="5.25" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblComponent" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblDisclaimer" Width="1.5" PointX="3.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblFingerPrint" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblFloat" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblFloatValue" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblGiftCard" Width="1.5" PointX="11.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblImage" Width="1.5" PointX="9" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblImageType" Width="1.5" PointX="6.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblImageUpload" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblInfo" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblKioskInfo" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblLogIn" Width="1.5" PointX="5.25" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblOffer" Width="1.5" PointX="14.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblPreference" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblPreparedText" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblReport" Width="1.5" PointX="1.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblScript" Width="1.5" PointX="6" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSecurityGroup" Width="1.5" PointX="0.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSecurityPermission" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSetting" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSettingsSymbol" Width="1.5" PointX="3" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSideBarMessage" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSignupInfo" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSite" Width="1.5" PointX="3" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSiteAd" Width="1.5" PointX="8.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSiteGroup" Width="1.5" PointX="0.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSiteSetting" Width="1.5" PointX="5.25" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSkypeAccount" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblSoftwareUpdater" Width="1.5" PointX="8.25" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblStaffLogin" Width="1.5" PointX="11.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransaction" Width="1.5" PointX="11.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionCabin" Width="1.5" PointX="13.5" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionCash" Width="1.5" PointX="13.5" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionGiftCard" Width="1.5" PointX="13.5" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionPayment" Width="1.5" PointX="13.5" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionTopup" Width="1.5" PointX="16.5" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionVending" Width="1.5" PointX="16.5" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblTransactionVoucher" Width="1.5" PointX="16.5" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblUpdateLog" Width="1.5" PointX="13.5" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblVending" Width="1.5" PointX="11.25" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblVendItem" Width="1.5" PointX="14.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblVersion" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.tblVoucher" Width="1.5" PointX="11.25" PointY="12.5" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK__tblStaffL__Accou__31F75A1E" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccount_tblSecurityGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountBalance_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountChange_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountChange_tblAccountAdmin" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountImage_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountPreference_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCashOut_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblDisclaimer_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblFingerPrint_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblLogIn_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransaction_tblAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountBalance_tblBalanceType" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountBalanceAudit_tblAccountBalance" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountDisclaimer_tblDisclaimer" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountImage_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAccountPreference_tblPreference" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblAsset_tblBed" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCabin_tblAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblBalanceType_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblBalanceType_tblImage1" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblBedType_tblBalanceType" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblOffer_tblBalanceType" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionPayment_tblBalanceType" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblBed_tblBedType" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblBed_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCabin_tblBed" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblDisclaimer_tblBedType1" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCabin_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionCabin_tblCabin" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCashOut_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCashOutValues_tblCashOut" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblCode_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblFloatValues_tblFloat" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblGiftCard_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionGiftCard_tblGiftCard" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblImage_tblImageType" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblOffer_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblOffer_tblImage_Ad" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblSiteAds_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblVendItem_tblImage" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblLogIn_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionTopup_tblOffer" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblSoftwa__AdHoc__5634BA94" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblSoftwa__PostE__5540965B" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblSoftwa__PreEx__544C7222" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblUpdate__PostE__49CEE3AF" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblUpdate__PreEx__48DABF76" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblSiteSe__Symbo__74B941B4" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblSiteSe__SiteI__75AD65ED" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblSoftwa__SiteI__526429B0" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblStaffL__SiteI__32EB7E57" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__tblUpdate__SiteI__47E69B3D" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblSite_tblSiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblSiteAds_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransaction_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblVending_tblSite" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblSoftwareUpdater_tblSoftwareUpdater" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblUpdateLog_tblSoftwareUpdater" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionCabin_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionCash_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionGiftCard_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionPayment_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionTopup_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionVending_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionVoucher_tblTransaction" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionGiftCard_tblVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionVending_tblVendItem" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblTransactionVoucher_tblVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK_tblVending_tblVendItem" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.tblReportSecurityGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.tblSecurityGroupPermission" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DatabaseModel.Category" Width="1.5" PointX="2.4118939016069723" PointY="0.7497222427044633" />
+        <EntityTypeShape EntityType="DatabaseModel.CustomerDemographic" Width="1.5" PointX="3.6885355225245169" PointY="30.083242102564892" />
+        <EntityTypeShape EntityType="DatabaseModel.Customer" Width="1.5" PointX="3.0957757398000805" PointY="30.388882293546985" />
+        <EntityTypeShape EntityType="DatabaseModel.Employee" Width="1.5" PointX="0.29225547252793582" PointY="27.759754178933683" />
+        <EntityTypeShape EntityType="DatabaseModel.Order_Detail" Width="1.5" PointX="6.1436337708233086" PointY="17.044042580315864" />
+        <EntityTypeShape EntityType="DatabaseModel.Order" Width="1.5" PointX="1.8305342112810044" PointY="17.204796277547626" />
+        <EntityTypeShape EntityType="DatabaseModel.Product" Width="1.5" PointX="7.5916173735594459" PointY="25.449186068703042" />
+        <EntityTypeShape EntityType="DatabaseModel.Region" Width="1.5" PointX="11.178650222336245" PointY="1.6178714342498552" />
+        <EntityTypeShape EntityType="DatabaseModel.Shipper" Width="1.5" PointX="2.1537936619267768" PointY="27.647849036216666" />
+        <EntityTypeShape EntityType="DatabaseModel.Supplier" Width="1.5" PointX="1.8946518366665819" PointY="6.0704483716145381" />
+        <EntityTypeShape EntityType="DatabaseModel.Territory" Width="1.5" PointX="0.60755253984013224" PointY="7.0747052315039118" />
+        <AssociationConnector Association="DatabaseModel.FK_Products_Categories" />
+        <AssociationConnector Association="DatabaseModel.FK_Orders_Customers" />
+        <AssociationConnector Association="DatabaseModel.FK_Employees_Employees" />
+        <AssociationConnector Association="DatabaseModel.FK_Orders_Employees" />
+        <AssociationConnector Association="DatabaseModel.FK_Order_Details_Orders" />
+        <AssociationConnector Association="DatabaseModel.FK_Order_Details_Products" />
+        <AssociationConnector Association="DatabaseModel.FK_Orders_Shippers" />
+        <AssociationConnector Association="DatabaseModel.FK_Products_Suppliers" />
+        <AssociationConnector Association="DatabaseModel.FK_Territories_Region" />
+        <AssociationConnector Association="DatabaseModel.CustomerCustomerDemo" />
+        <AssociationConnector Association="DatabaseModel.EmployeeTerritories" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
