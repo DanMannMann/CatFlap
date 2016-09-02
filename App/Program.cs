@@ -54,20 +54,20 @@ namespace App
                .Where<EmployeeVM>(x => x.Orders.Any())
                .ToList();
 
-            var emp = dataService.Employees
-               .Using(dataService, x => x.NonDeletedOrders)
-               .With(x => x.Orders, x => x.Where(i => i.Order_Details.Any(t => t.Discount > 0.06)))
-               .With(x => x.Orders.Then().Order_Details, x => x.Where(i => i.Discount > 0.06))
-               .Where<Employee_OrdersThenOrderDetailsTest>(i => i.Orders.Any());
+            //var emp = dataService.Employees
+            //   .Using(dataService, x => x.NonDeletedOrders)
+            //   .With(x => x.Orders, x => x.Where(i => i.Order_Details.Any(t => t.Discount > 0.06)))
+            //   .With(x => x.Orders.Then().Order_Details, x => x.Where(i => i.Discount > 0.06))
+            //   .Where<Employee_OrdersThenOrderDetailsTest>(i => i.Orders.Any());
 
-            var emp2 = dataService.Employees
-              .Using(dataService, x => x.NonDeletedOrders)
-              .With(x => x.Orders, x => x.Where(i => i.Order_Details.Any(t => t.Discount > 0.06)))
-              .With(x => x.Orders.Then().Order_Details, x => x.Where(i => i.Discount > 0.06))
-              .Where<Employee_OrdersThenOrderDetailsTest>(i => i.Orders.Any());
+            //var emp2 = dataService.Employees
+            //  .Using(dataService, x => x.NonDeletedOrders)
+            //  .With(x => x.Orders, x => x.Where(i => i.Order_Details.Any(t => t.Discount > 0.06)))
+            //  .With(x => x.Orders.Then().Order_Details, x => x.Where(i => i.Discount > 0.06))
+            //  .Where<Employee_OrdersThenOrderDetailsTest>(i => i.Orders.Any());
 
-            var emp3 = dataService.Employees
-              .Where<Employee_OrdersThenOrderDetailsTest>(i => i.Orders.Any(t => t.Order_Details.Any(g => g.Discount > 0.06)));
+            //var emp3 = dataService.Employees
+            //  .Where<Employee_OrdersThenOrderDetailsTest>(i => i.Orders.Any(t => t.Order_Details.Any(g => g.Discount > 0.06)));
 
             Console.WriteLine(CatFlap.ClientStatistics.ToStatsString());
             //Console.WriteLine(CatFlap.MappingCode);

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-	<Identity Id="CatFlap.VsExtension.Dan Mann.df762be9-0d83-4f65-b795-1355c8a93882" Version="1.0" Language="en-US" Publisher="Dan Mann" />
-	<DisplayName>CatFlap.VsExtension</DisplayName>
+	<Identity Id="VSIXProject1.Dan Mann.2983c657-ba8e-425f-9e8d-6751ac62d2b1" Version="1.0" Language="en-US" Publisher="Dan Mann" />
+	<DisplayName>VSIXProject1</DisplayName>
 	<Description>Empty VSIX Project.</Description>
   </Metadata>
   <Installation>
@@ -12,6 +12,7 @@
 	<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
   <Assets>
-	<Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="CatFlap.ItemTemplate" Path="ItemTemplates" d:TargetPath="|CatFlap.ItemTemplate;TemplateProjectOutputGroup|" d:VsixSubPath="ItemTemplates" />
+	<Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="CatFlap.ItemTempTest" d:TargetPath="|CatFlap.ItemTempTest;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+	<Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="CatFlapTemplateLogic" Path="|CatFlapTemplateLogic|" AssemblyName="|CatFlapTemplateLogic;AssemblyName|" />
   </Assets>
 </PackageManifest>

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CatFlap.FlapTemplate")]
+[assembly: AssemblyTitle("CatFlap.ItemTempTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dan Mann")]
-[assembly: AssemblyProduct("CatFlap.FlapTemplate")]
+[assembly: AssemblyProduct("CatFlap.ItemTempTest")]
 [assembly: AssemblyCopyright("Copyright © Dan Mann 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6c253f4d-d2ea-454d-8d5d-33dcfa1004e6")]
+[assembly: Guid("a9b3b82e-fe49-4552-8067-82e823de6320")]
 
 // Version information for an assembly consists of the following four values:
 //

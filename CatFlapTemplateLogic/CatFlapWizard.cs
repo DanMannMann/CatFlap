@@ -51,31 +51,70 @@ namespace CatFlapTemplateLogic
             var fce = obj;
             if (fce != null)
             {
-                for (short x = 1; x <= fce.Count; x++)
-                {
-                    var s = fce.Item(x);
-                    if (s.Kind == vsCMElement.vsCMElementClass)
-                    {
-                        var o = (CodeClass)s;
-                        if (o.Bases.Count == 1)
-                        {
-                            var w = o.Bases.Item(1).FullName;
-                            if (w.Contains("System.Data.Entity.DbContext"))
-                            {
-                                results.Add(s);
-                            }
-                        }
-                    }
-                    else if (s.Kind == vsCMElement.vsCMElementNamespace)
-                    {
-                        FindDbContexts(s.Children, results);
-                    }
-                    else
-                    {
-                        FindDbContexts(s.Children, results);
-                        //MessageBox.Show(s.Kind.ToString());
-                    }
-                }
+				foreach(var v in fce)
+				{
+					var s = (CodeElement)v;
+					if (s.Kind == vsCMElement.vsCMElementClass)
+					{
+						var o = (CodeClass)s;
+						try
+						{
+							var f = o.FullName;
+						}
+						catch (Exception ex)
+						{
+
+						}
+						if (o.Bases.Count == 1)
+						{
+							var w = o.Bases.Item(1).FullName;
+							if (w.Contains("System.Data.Entity.DbContext"))
+							{
+								results.Add(s);
+							}
+						}
+						FindDbContexts(s.Children, results);
+					}
+					else if (s.Kind == vsCMElement.vsCMElementNamespace)
+					{
+						FindDbContexts(s.Children, results);
+					}
+					else
+					{
+						FindDbContexts(s.Children, results);
+						//MessageBox.Show(s.Kind.ToString());
+					}
+				}
+
+     //           for (short x = 1; x <= fce.Count; x++)
+     //           {
+					//try
+					//{
+					//	var s = fce.Item(x);
+					//	if (s.Kind == vsCMElement.vsCMElementClass)
+					//	{
+					//		var o = (CodeClass)s;
+					//		if (o.Bases.Count == 1)
+					//		{
+					//			var w = o.Bases.Item(1).FullName;
+					//			if (w.Contains("System.Data.Entity.DbContext"))
+					//			{
+					//				results.Add(s);
+					//			}
+					//		}
+					//	}
+					//	else if (s.Kind == vsCMElement.vsCMElementNamespace)
+					//	{
+					//		FindDbContexts(s.Children, results);
+					//	}
+					//	else
+					//	{
+					//		FindDbContexts(s.Children, results);
+					//		//MessageBox.Show(s.Kind.ToString());
+					//	}
+					//}
+					//catch (Exception ex) { }
+     //           }
             }
             return results;
         }
@@ -151,11 +190,9 @@ namespace CatFlapTemplateLogic
 
             while (projects.MoveNext())
             {
-                var items = ((Project)projects.Current).ProjectItems.GetEnumerator();
-                while (items.MoveNext())
+                foreach (var item in ((Project)projects.Current).ProjectItems)
                 {
-                    var item = (ProjectItem)items.Current;
-                    GetFiles(item, contexts);
+                    GetFiles((ProjectItem)item, contexts);
                 }
             }
 
