@@ -21,9 +21,9 @@ using (var db = new northwindContext())
 
 The example above returns a single employee and therefore queries for a single collection of non-deleted orders. Here's some stats:
 
- | Time Connected | Execution Time | Bytes Sent | Bytes Recvd |
- | --- | --- | --- |
- | 16 | 17 | 49163 | 1624467 |
+| Time Connected   |      Execution Time      |  Bytes Sent | Bytes Recvd |
+|----------|---------------|-------|-------|
+| 16 | 17 | 49163 | 1624467 |
  
  Here's how you'd handle that with CatFlap:
  ```csharp
@@ -34,11 +34,10 @@ The example above returns a single employee and therefore queries for a single c
  ```
  
 And some stats:
- --------------------------------------------------------------------- 
- | Time Connected | Execution Time | Bytes Sent     | Bytes Recvd    |
- --------------------------------------------------------------------- 
- | 39             | 9              | 10000          | 428888         |
- --------------------------------------------------------------------- 
+
+| Time Connected   |      Execution Time      |  Bytes Sent | Bytes Recvd |
+|----------|---------------|-------|-------|
+| 39 | 9 | 10000 | 428888 |
  
  At tht expense of a longer time connected (spent prepping the expression whilst the connection is open, which unfortunately seems unavoidable) the execution time is almost halved, the amount of data sent is reduced by 80% and the amount of data received is reduced by nearly 75%. What's happening is that the viewmodel (EmployeeVM) is being used to automatically decide which data columns to bring back and which related entity collections to eagerly load. On top of this the .Using() call specifies a filter which is applied to the related collection *in the SQL query* so that only the needed data is returned *in a single query*.
  
