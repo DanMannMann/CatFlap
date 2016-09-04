@@ -20,11 +20,10 @@ using (var db = new northwindContext())
 ```
 
 The example above returns a single employee and therefore queries for a single collection of non-deleted orders. Here's some stats:
- --------------------------------------------------------------------- 
- | Time Connected | Execution Time | Bytes Sent     | Bytes Recvd    |
- --------------------------------------------------------------------- 
- | 16             | 17             | 49163          | 1624467        |
- --------------------------------------------------------------------- 
+
+ | Time Connected | Execution Time | Bytes Sent | Bytes Recvd |
+| --- | --- | --- |
+ | 16 | 17 | 49163 | 1624467 |
  
  Here's how you'd handle that with CatFlap:
  ```csharp
