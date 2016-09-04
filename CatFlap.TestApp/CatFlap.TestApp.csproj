@@ -76,10 +76,6 @@
       <Project>{c4a791e0-7fbf-4178-b981-42fffbd322a1}</Project>
       <Name>CatFlap.NorthwindTests</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CatFlapViewModelTemplateLogic\CatFlapViewModelTemplateLogic.csproj">
-      <Project>{6ec9b29e-0481-406a-9089-ae5c7970c9da}</Project>
-      <Name>CatFlapViewModelTemplateLogic</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CatFlap\CatFlap.csproj">
       <Project>{81c7684e-6a1c-4f5f-b217-67c861db6068}</Project>
       <Name>CatFlap</Name>
